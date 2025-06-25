@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  output: 'export',
+  basePath: '/screentrackk-blog',  // This matches the repo name on GitHub
+  trailingSlash: true
 };
 
-export default nextConfig;
+module.exports = nextConfig;
